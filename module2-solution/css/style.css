@@ -26,8 +26,8 @@
     float: right;
     width: 200px;
     padding: 10px;
-    border-left: 1px solid;
-    border-bottom: 1px solid;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
     text-align: center;
     font-size: 125%;
 }
@@ -37,7 +37,8 @@
 }
 
 .second-dish {
-    background-color: rgb(191, 65, 65);   
+    background-color: rgb(191, 65, 65);
+    color: white;   
 }
 
 .third-dish {
