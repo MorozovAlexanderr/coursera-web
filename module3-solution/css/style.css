@@ -37,8 +37,6 @@ nav.navbar-fixed-top {
 .nav-item {
     background-color: white;
     border-bottom: 1px solid black;
-    flex-basis: auto;
-    flex-grow: 1;
 }
 
 .nav-item:hover {
@@ -52,6 +50,16 @@ nav.navbar-fixed-top {
 }
 
 .content {
-    height: 50px;
-    background-color: grey;
+    background-color: lightgrey;
+    padding: 10px;
 }
+
+.content p {
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    .container-fluid {
+        padding: 0 40px;
+    }
+} 
